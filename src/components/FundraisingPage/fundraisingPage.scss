@@ -1,0 +1,116 @@
+.fundraisingPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    background: #fff;
+    margin: 5vh;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: #0e1e251f 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 40rem;
+    height: auto;
+    text-align: center;
+
+    &-title {
+      font-family:'Courier New', Courier, monospace;
+      text-transform: uppercase;
+      letter-spacing: .2rem;
+      font-weight: 600;
+      font-size: 1.5em;
+      margin: .5rem;
+    }
+
+    &-description {
+      margin: 1rem;
+      text-align: left;
+    }
+
+    &-image {
+      img {
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &-owner {
+      font-weight: 500;
+      text-align: left;
+      margin-top: 2rem;
+    }
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+
+    &-input {
+      display: flex;
+      align-self: center;
+      width: 95%;
+      height: 3rem;
+      padding-left: .5rem;
+      outline: none;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      margin-top: .25rem;
+      margin-bottom: 1rem;
+      
+      &:focus {
+        border: 2px solid #808080;
+      }
+    }
+
+    &-error {
+      height: 2rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+
+      &--text {
+        text-align: right;
+        color: #ff0000;
+      }
+    }
+
+    &-button {
+      border-radius: 2rem;
+      width: 85%;
+      color: #fff;
+      padding: 15px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 16px;
+      border: 1px solid #b0aeee;
+      font-weight: 500;
+      letter-spacing: .1rem;  
+      transition: .3s all;
+      background-color: #b0aeee;
+      margin-top: 2rem;
+    
+      &:active {
+          transform: translateY(4px);
+      }  
+
+      &:hover {
+        background-color: #fff;
+        color: #b0aeee;
+      }
+    }
+  }
+}

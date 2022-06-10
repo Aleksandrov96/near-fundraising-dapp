@@ -1,0 +1,33 @@
+.logout {
+  border: none;
+  background-color: inherit;
+  transition: .3s all;
+  cursor: pointer;
+  
+  &:hover {
+    span {
+      display: none;
+    }
+    text-decoration: underline;
+  }
+
+  &:hover::before {
+    content: 'Logout';
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+.brand {
+  background: -webkit-radial-gradient(circle, #b0aeee 50%, rgba(148,210,233,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  font-size: 1.5em;
+}

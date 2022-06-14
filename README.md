@@ -5,9 +5,9 @@ This [React] app was initialized with [create-near-app]
 ===========
 
 Inspired by https://docs.near.org/docs/tutorials/apps/todos-crud-app
-/br
-Video review https://www.loom.com/share/8efe03e11840404c802bc37c4fa6cee1
 
+Video review https://www.loom.com/share/8efe03e11840404c802bc37c4fa6cee1
+===========
 
 Quick Start
 ===========

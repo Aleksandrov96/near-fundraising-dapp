@@ -2,6 +2,7 @@ fundraising-dapp
 ==================
 
 This [React] app was initialized with [create-near-app]
+===========
 Inspired by https://docs.near.org/docs/tutorials/apps/todos-crud-app
 
 Quick Start
